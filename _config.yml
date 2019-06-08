@@ -13,8 +13,8 @@ timezone: # 网站时区
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: sacomplex.gitee.io
-# url: sacomplex.github.io # 网址
+# url: sacomplex.gitee.io
+url: sacomplex.github.io # 网址
 root: / # 网站根目录
 permalink: :year/:month/:day/:title/ # 文章的永久链接格式
 permalink_defaults: # 永久链接中各部分的默认值
@@ -91,8 +91,8 @@ theme: Wikitten
 deploy:
   type: git
   repository: 
-#    github: git@github.com:sacomplex/sacomplex.github.io.git,master
-     gitee: git@gitee.com:sacomplex/sacomplex/sacomplex.gitee.io.git,master
+     github: git@github.com:sacomplex/sacomplex.github.io.git,master
+#    gitee: git@gitee.com:sacomplex/sacomplex/sacomplex.gitee.io.git,master
 
 # live2d
 live2d:
